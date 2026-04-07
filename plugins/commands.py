@@ -258,7 +258,7 @@ async def start(client, message):
                 except:
                     f_caption=f_caption
             if f_caption is None:
-                f_caption = f"@VJ_Bots {title}"
+                f_caption = f"{title}"
             try:
                 if STREAM_MODE == True:
                     log_msg = await client.send_cached_media(chat_id=LOG_CHANNEL, file_id=msg.get("file_id"))
