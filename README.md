@@ -35,7 +35,7 @@
 
 - Note : You Can Turn On Or Off Every Feature, Just Use Which Feature You Want By Turning It On.
 
-Join My <a href='https://telegram.me/vj_bots'>Update Channel</a> For More Update Regarding Repo.</b>
+Join My <a href='https://t.me/CashbackTaskOfficial'>Update Channel</a> For More Update Regarding Repo.</b>
 
 ### How To Deploy : [Video Tutorial](https://youtu.be/3SJR7vH2kRo)
 
@@ -133,7 +133,7 @@ Join My <a href='https://telegram.me/vj_bots'>Update Channel</a> For More Update
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJBots/VJ-Filter-Bot&branch=Tech_VJ&name=VJ-Filter-Bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/)
 </details>
 
 <details><summary><b>Deploy To Render</b></summary>
@@ -160,8 +160,8 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/VJBots/VJ-Filter-Bot/tree/Tech_VJ">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+<a href="https://render.com/">
+<img src="https://render.com/" alt="Deploy to Render">
 </a>
 </details>
 
@@ -186,8 +186,8 @@ Edit info.py with variables as given below then run bot
 
 ## Thanks to 
  - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
- - Thanks To [Tech VJ](https://youtube.com/@Tech_VJ) To Modify And Add Amazing Feature In The Repo
- - Thanks To [Eva Marie](https://t.me/TeamEvamaria) For Base Repo
+ - Thanks To [Tech VJ](https://t.me/CashbackTaskOfficial) To Modify And Add Amazing Feature In The Repo
+ - Thanks To [Eva Marie](https://t.me/CashbackTaskOfficial) For Base Repo
  - Thanks To All Everyone In This Journey</b>
 
 ## Note 🏷️
