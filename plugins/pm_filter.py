@@ -349,10 +349,12 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
     pre = 'filep' if settings['file_secure'] else 'file'
     if settings["button"]:
         btn = [
-            [
-                InlineKeyboardButton(
-                    text=f"[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].replace('@VJ_Bots','').split()))}"
-            ]
+    [
+        InlineKeyboardButton(
+            text=f"[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].replace('@VJ_Bots','').split()))}"
+        ),
+    ]
+        ]
             for file in files
         ]
         btn.insert(0, 
