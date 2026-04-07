@@ -3286,6 +3286,3 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
-    else:
-        return False
-
