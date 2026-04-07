@@ -56,7 +56,11 @@ def get_hash(media_msg: Message) -> str:
 
 def get_name(media_msg: Message) -> str:
     media = get_media_from_message(media_msg)
-    return getattr(media, 'file_name', "")
+    file_name = getattr(media, 'file_name', "")
+    
+    if file_name:
+        file_name = file_name.replace('@VJ_Bots', '')
+    return file_name
 
 def get_media_file_size(m):
     media = get_media_from_message(m)
