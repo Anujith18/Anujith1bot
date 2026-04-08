@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '29340327'))
 API_HASH = environ.get('API_HASH', 'd963ddbf88030085b72cb3250195a12b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8126847227:AAGSw0JhjAfX6xHpyGZ5TCFlzxyzGYAp1Nw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
@@ -59,8 +59,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://arunyaammu6:<Anujith0>@anujith0.vfbxuvp.mongodb.net/?retryWrites=true&w=majority&appName=Anujith0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "Anujith0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://trex:trex@cluster0.wbyvtcf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
