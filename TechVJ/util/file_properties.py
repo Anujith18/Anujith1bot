@@ -60,7 +60,7 @@ def get_name(media_msg: Message) -> str:
 
     if file_name:
         # REMOVE ALL TAGS HERE (MAIN FIX)
-        file_name = file_name.replace('@VJ_Bots', '')
+        file_name = file_name.replace('@AlluTvSerials', '')
 
     return file_name
 
